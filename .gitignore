@@ -21,6 +21,9 @@ Assets/Plugins/Sirenix/
 # vHierarchy (paid asset - do not commit)
 Assets/vHierarchy/
 
+# Third Party Assets
+/Assets/Third Party/
+
 # VS/Rider/MD/Consulo solution and project files
 .vs/
 .idea/
