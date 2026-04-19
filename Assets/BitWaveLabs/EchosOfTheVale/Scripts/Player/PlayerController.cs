@@ -1,3 +1,4 @@
+using BitWaveLabs.EchosOfTheVale.Core;
 using UnityEngine;
 
 namespace BitWaveLabs.EchosOfTheVale.Player
@@ -7,7 +8,7 @@ namespace BitWaveLabs.EchosOfTheVale.Player
     /// </summary>
     [RequireComponent(typeof(PlayerInputHandler))]
     [RequireComponent(typeof(Rigidbody2D))]
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : Entity
     {
         /// <summary>
         /// Reference to the input handler on this player.
