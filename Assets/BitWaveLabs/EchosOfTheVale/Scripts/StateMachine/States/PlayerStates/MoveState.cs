@@ -9,7 +9,7 @@ namespace BitWaveLabs.EchosOfTheVale.StateMachine.States.PlayerStates
             base.Update();
             
             // if(Player.IsKnockedBack)
-            //     return;
+            //     return; 
             
             if(Input.MoveInput == Vector2.zero)
                 StateMachine.ChangeState(Player.IdleState);
